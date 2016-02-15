@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C419D37E-4254-43D1-8F80-AEB954AB9381}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2CB8FAB3-B543-4586-9691-19D14EBFFDEC}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DependencyInjectionSample.App", "src\DependencyInjectionSample.App\DependencyInjectionSample.App.xproj", "{1E766E3B-FA0F-49BF-B818-1038E4311B2E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ThatCSharpGuy.Sample.Services", "src\ThatCSharpGuy.Sample.Services\ThatCSharpGuy.Sample.Services.xproj", "{D9970996-B6F8-4FA4-AAE1-5793816CCD71}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "OtherNamespace.GoogleChart.Qr", "src\OtherNamespace.GoogleChart.Qr\OtherNamespace.GoogleChart.Qr.xproj", "{A2C25135-2ED6-42A9-AB50-6FCC2499C0C7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FoundataGmbH.GoQr", "src\FoundataGmbH.GoQr\FoundataGmbH.GoQr.xproj", "{7F1863A5-283C-45B0-ACF5-7566355407B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E766E3B-FA0F-49BF-B818-1038E4311B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E766E3B-FA0F-49BF-B818-1038E4311B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E766E3B-FA0F-49BF-B818-1038E4311B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E766E3B-FA0F-49BF-B818-1038E4311B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9970996-B6F8-4FA4-AAE1-5793816CCD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9970996-B6F8-4FA4-AAE1-5793816CCD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9970996-B6F8-4FA4-AAE1-5793816CCD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9970996-B6F8-4FA4-AAE1-5793816CCD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C25135-2ED6-42A9-AB50-6FCC2499C0C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C25135-2ED6-42A9-AB50-6FCC2499C0C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C25135-2ED6-42A9-AB50-6FCC2499C0C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C25135-2ED6-42A9-AB50-6FCC2499C0C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F1863A5-283C-45B0-ACF5-7566355407B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1863A5-283C-45B0-ACF5-7566355407B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1863A5-283C-45B0-ACF5-7566355407B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F1863A5-283C-45B0-ACF5-7566355407B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E766E3B-FA0F-49BF-B818-1038E4311B2E} = {C419D37E-4254-43D1-8F80-AEB954AB9381}
+		{D9970996-B6F8-4FA4-AAE1-5793816CCD71} = {C419D37E-4254-43D1-8F80-AEB954AB9381}
+		{A2C25135-2ED6-42A9-AB50-6FCC2499C0C7} = {C419D37E-4254-43D1-8F80-AEB954AB9381}
+		{7F1863A5-283C-45B0-ACF5-7566355407B4} = {C419D37E-4254-43D1-8F80-AEB954AB9381}
+	EndGlobalSection
+EndGlobal
